@@ -1,0 +1,30 @@
+.IT{
+  width: 230px;
+  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f4f7ff;
+  border-top: 3px solid #f4f7ff;
+  color: #f4f7ff;
+  margin-top: 11px;
+}
+.pa{
+  width: 148px;
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 14px;
+  word-break: break-word;
+}
+.pa span{
+  font-size: 110%;
+}
+.Kontak{
+    border-bottom: 2px solid #FFFFFF;
+    font-size: 150%;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+.Sosial{
+	border-bottom: 2px solid #FFFFFF
+}
