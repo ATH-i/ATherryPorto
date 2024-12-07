@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<title>Ask Me</title>
+	<link rel="stylesheet" type="text/css" href="css/contaksaya.css">
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -26,6 +27,12 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+<style type="text/css">
+body {
+    background-color: #D9FAFF;
+    text-align: center;
+}
+</style>
 </head>
 
 <body onLoad="MM_preloadImages('home_on.png','profile_on.png','portofolio_on.png','question_on.png')">
@@ -34,27 +41,74 @@ function MM_swapImage() { //v3.0
     <tbody>
       <tr>
         <td width="20%" rowspan="2" bgcolor="#005792" style="text-align: center"><img src="Andrew Th.gif" width="200" height="64" alt=""/></td>
-        <td height="23" colspan="6" bgcolor="#005792" style="color: #FBF9F9"><marquee class="textjalan">
-          Selamat datang di Website Portofolio Saya
-        </marquee></td>
+        <td height="23" colspan="6" bgcolor="#005792" style="color: #FBF9F9"></td>
       </tr>
       <tr>
-        <td width="10%" height="41"><img src="ath.png" width="196" height="66" alt=""/></td>
+        <td width="10%" height="41">&nbsp;</td>
         <td width="10%"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','home_on.png',1)"><img src="home_off.png" alt="" width="123" height="56" id="Image1"></a></td>
         <td width="10%"><a href="profile.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','profile_on.png',1)"><img src="profile_off.png" alt="" width="124" height="55" id="Image2"></a></td>
         <td width="10%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','portofolio_on.png',1)"><img src="portofolio_off.png" alt="" width="121" height="56" id="Image3"></a></td>
         <td width="10%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','question_on.png',1)"><img src="question_off.png" alt="" width="122" height="56" id="Image4"></a></td>
-        <td width="20%" style="text-align: center">&nbsp;</td>
+        <td width="20%" style="text-align: center"><a href="index.html"><img src="img/LogoV2.png" width="85" height="83" alt=""/></a></td>
       </tr>
       <tr>
-        <td height="41" colspan="7" bgcolor="#005792">&nbsp;</td>
+        <td height="41" colspan="7" bgcolor="#005792"><marquee class="textjalan" style="color: #FFFFFF">
+          Selamat datang di Website Portofolio Saya
+        </marquee></td>
       </tr>
     </tbody>
   </table>
-  <div class="NavBarMenu">Content for  class "NavBarMenu" Goes Here</div>
+  <div class="NavBarMenu">
+    <form id="form1" name="form1" method="post">
+    </form>
+  </div>
 </div>
-<div class="Contact">Content for  class "Contact" Goes Here</div>
-<div class="Form">Content for  class "Form" Goes Here</div>
+<div class="Contact">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td style="text-align: center; font-size: x-large;">Sampaikan Pendapat Anda!</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td rowspan="2" style="font-size: larger; text-align: center;">Sampaikanlah pendapat anda tentang karya saya<br>
+          melalui form ini</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<form>
+<div class="Form">
+  <div class="askme-box">
+	<div class="left"></div>
+	<div class="right">
+		<h2>Ask Me</h2>
+		<input type="text" class="field" placeholder="Your Name">
+		<input type="email" class="field" placeholder="Your Email">
+	    <input type="text" class="field" placeholder="WhatsApp">
+		<textarea class="field area" placeholder="Message"></textarea>
+		<button class="send"><strong>SEND</strong></button>
+	    <p>&nbsp;</p>
+	    <table width="100%" border="0">
+	      <tbody>
+	        <tr>
+	          <td width="50%" style="text-align: justify">Jika anda tertarik dengan karya saya, anda bisa kunjungi sosial media saya yang lainnya</td>
+	          <td width="25%" style="text-align: center"><img src="img/pinterest.png" alt="" width="51" height="51" usemap="#Map5"/></td>
+	          <td width="25%" style="text-align: center"><img src="img/blogger.png" alt="" width="51" height="51" usemap="#Map4"/></td>
+            </tr>
+          </tbody>
+        </table>
+	</div>
+	</div>
+</div>
+</form>
 <div class="Footer">
   <table width="100%" border="0">
     <tbody>
@@ -82,6 +136,14 @@ function MM_swapImage() { //v3.0
 </map>
 <map name="Map3">
   <area shape="circle" coords="49,50,31" href="https://api.whatsapp.com/send/?phone=087718844314&text&type=phone_number&app_absent=0" target="new">
+</map>
+
+<map name="Map4">
+  <area shape="circle" coords="26,26,25" href="https://atherryh.blogspot.com/" target="new">
+</map>
+
+<map name="Map5">
+  <area shape="circle" coords="26,27,25" href="https://pin.it/2IAmmNiU3" target="new">
 </map>
 </body>
 </html>
