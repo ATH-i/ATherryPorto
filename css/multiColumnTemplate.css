@@ -100,7 +100,7 @@
 	cursor: pointer;
 }
 .left_article {
-    background-color: #FFFFFF;
+    background-color: #D9FAFF;
     width: 60%;
     float: left;
     font-family: "Source Sans Pro";
@@ -131,7 +131,7 @@
 .right_article {
 	width: 40%;
 	float: left;
-	background-color: #F6F6F6;
+	background-color: #D9FAFF;
 }
 .container .right_article ul {
 	margin-top: 0px;
