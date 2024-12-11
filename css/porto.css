@@ -1,8 +1,33 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gill Sans", "Gill Sans MT";
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.myporto{
+  max-width: 85%;
+  margin:20px auto;
+}
+
+.myporto .judul{
+  font-size: 25px;
+  background-color: #685752;
+  color:#fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:15px;
+}
+
+.myporto .image-porto{
+  columns:3 250px;
+  gap:18px;
+}
+
+.myporto .image-porto img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 html,body{
@@ -91,23 +116,6 @@ nav ul li a:active{
 	width: 100%;
 	height: 100vh;
 }
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            
-}
-
 
 @media (max-width:600px) {
     nav ul{
