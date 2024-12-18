@@ -1,8 +1,56 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gill Sans", "Gill Sans MT";
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.myporto{
+  max-width: 80%;
+  margin:20px auto;
+}
+
+.myporto .judul{
+  font-size: 25px;
+  background-color: #685752;
+  color:#fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:15px;
+}
+
+.myporto .image-porto{
+  columns:3 250px;
+  gap:18px;
+}
+
+.myporto .image-portoA{
+	columns:2 250px;
+	gap:50px;
+}
+
+.myporto .image-porto img{
+  margin-bottom: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.myporto .image-portoA img{
+  margin-bottom: 8px;
+  border-radius: 5px;
+  width: 100%;
+	
+}
+.image-porto1{
+  width: 100%;
+  background-color: #685752;
+  margin-bottom: 25px;
+	
+}
+.desc{
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #685752;
 }
 
 html,body{
@@ -91,63 +139,10 @@ nav ul li a:active{
 	width: 100%;
 	height: 100vh;
 }
-.Isi .Judul{
-	background-color: #685752;
-	border-radius: 5px;
-    margin-bottom: 10px;
-	text-align: center;
-    padding:15px;
-}
-.Isi{
-	font-size: 100%;
-	margin:auto;
-	padding-left:5%;
-	padding-bottom:3%;
-	float:left;
-	width:60%;
-}
-
-h2{
-	font-size: 180%;
-}
-
-h3{
-	font-size: 200%;
-}
-.image{
-	padding-left: 10%;
-	display: grid;
-	overflow: hidden;
-	pointer-events: none;
-}
-.image img{
-	max-height: 900px;
-	max-width: 1800px;
-	width: 120%;
-	height: auto;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            
-}
-
 
 @media (max-width:600px) {
-    nav ul{
+	 nav ul{
         position: absolute;
-        top: 70px;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -155,6 +150,7 @@ h3{
         background: #8EB486;
         gap: 0;
         overflow: hidden;
+		top: 70px;
     }
     nav ul li{
         padding: 20px;
@@ -166,36 +162,4 @@ h3{
     #menuList{
         transition: all 0.5s;
     }
-	.Isi{
-	margin:auto;
-	padding-left:5%;
-	padding-bottom:3%;
-	float:left;
-	width:50%;
-	}
-	.Isi .Judul h1{
-		font-size: 20px;
-	}
-	.Isi h2{
-		font-size: 20px;
-	}
-	.rollover table{
-		width: 200%;
-	}
-	.rollover img{
-	width: 96%;
-	height: auto;
-	}
-}
-
-
-
-
-#pre-loader {
-	background: #FDF7F4 url("../loader.gif") no-repeat center center;
-	background-size: 10%;
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	z-index: 100;
 }

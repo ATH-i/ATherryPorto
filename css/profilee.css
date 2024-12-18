@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Gill Sans", "Gill Sans MT";
 }
+.datapribadi{
+	list-style: url("../finger.svg")
+}
 
 html,body{
     height: 100%;
@@ -164,26 +167,15 @@ z-index: -1;
         width: 200px;
         height: 200px;
     }
-    nav ul{
-        width: 100%;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        background: #8EB486;
-        gap: 0;
-        overflow: hidden;
-    }
-    nav ul li{
-        padding: 20px;
-        padding-top: 0;
-    }
-    .menu-icon{
-        display: block;
-    }
-    #menuList{
-        transition: all 0.5s;
-    }
+}
+
+
+
+#pre-loader {
+	background: #FDF7F4 url("../loader.gif") no-repeat center center;
+	background-size: 10%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
 }
