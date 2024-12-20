@@ -134,9 +134,9 @@ html,body{
     overflow: hidden;
 }
 .desc{
-	height: 30%;
+	height: 40%;
 	width: 90%;
-	padding: 6px;
+	padding: 5px;
 	box-sizing: border-box;
 	position: absolute;
 	background: rgb(27, 27, 27, 5);
