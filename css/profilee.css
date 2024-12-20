@@ -145,6 +145,27 @@ z-index: -1;
 
 
 @media (max-width:600px) {
+	nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #8EB486;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
     .NavBar{
         z-index: 2px;
     }
@@ -157,13 +178,11 @@ z-index: -1;
     }
     
     .Profile{
-        position: relative;
         top: -105px;
         font-size: 90%;
         z-index: -1px;
     }
     .Profile img{
-        position: relative;
         width: 200px;
         height: 200px;
     }

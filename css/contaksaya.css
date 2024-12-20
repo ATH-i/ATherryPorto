@@ -243,6 +243,7 @@ z-index: -1;
 @media screen and (max-width: 600px){
 	.askme-box{
 		grid-template-columns: 1fr;
+		
 	}
 	.Inf{
         background-color: #685752;

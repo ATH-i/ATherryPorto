@@ -4,11 +4,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.myporto{
-  max-width: 85%;
-  margin:20px auto;
-}
 
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #FDF7F4;
+}
+.myporto .info{
+	font-size: 18px;
+	background-color: #8EB486;
+	color: black;
+	border-radius: 3px;
+	margin-bottom: 8px;
+	text-align: center;
+	padding: 1px;
+}
+.myporto{
+	max-width: 85%;
+	margin: 20px auto;
+}
 .myporto .judul{
   font-size: 25px;
   background-color: #685752;
@@ -18,7 +32,6 @@
   text-align: center;
   padding:15px;
 }
-
 .myporto .image-porto{
   columns:3 250px;
   gap:18px;
@@ -30,20 +43,161 @@
   width: 100%;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
-    background: #FDF7F4;
+.image-porto{
+	width:100%;
+	height: 100%;
+	justify-content: space-around;
+}
+.myporto .image-porto img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
 
-#main-nav{
-	background-color: #8EB486;
-	text-align: center;
-	width: 100%;
-	padding: 30px;
+.myporto .image-porto1{
+	columns:2 300px;
+	gap:40px;
+}
+
+.myporto .image-porto1 img{
+	margin-bottom:15px;
+	border-radius:7px;
+	width:100%;
+}
+
+.myporto .image-porto2{
+	columns:2 300px;
+	gap:18px;
+}
+
+.myporto .image-porto2 img{
+	margin-bottom:15px;
+	border-radius:7px;
+	width:100%;
+}
+
+.myporto .image-porto2 iframe{
+	margin-bottom:8px;
+	border-radius:7px;
+	width:100%;
+}
+
+.myporto .image-porto2 .detext{
+	background-color: #685752;
+    color:#fff;
+    margin-bottom: 10px;
+    text-align: center;
+	border-radius: 5px;
+}
+
+
+.img{
+	padding: 2rem 1rem;
 	position: relative;
+	transition: 0.5s ease-in-out;
+}
+.img:hover img{
+	transform: scale(1.1);
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	transition: 0.5s;
+}
+.imga:hover img{
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+.img:hover:before{
+	opacity:1;
+}
+
+.img .desc{
+    color: antiquewhite;
+    top: 67%;
+    left: 5%;
+    z-index: 0;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    position: absolute;
+    overflow: hidden;
+}
+.img .descs{
+	color: antiquewhite;
+    top: 50%;
+	bottom: 25%;
+    left: 5%;
+    z-index: 0;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    position: absolute;
+    overflow: hidden;
+}
+.desc{
+	height: 30%;
+	width: 90%;
+	padding: 6px;
 	box-sizing: border-box;
-	height: 69px;
+	position: absolute;
+	background: rgb(27, 27, 27, 5);
+	color: white;
+	overflow: hidden;
+}
+.descs{
+	height: 17%;
+	width: 90%;
+	padding: 6px;
+	box-sizing: border-box;
+	position: absolute;
+	background: rgb(27, 27, 27, 5);
+	color: white;
+	overflow: hidden;
+}
+.img:hover .desc{
+	opacity: 5;
+	transform: translateX(0px);
+}
+.img:hover .descs{
+	opacity: 5;
+	transform: translateX(0px);
+}
+.img .desc h2{
+    margin: 0;
+    text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+.img .desc p{
+    font: 'monospace';
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-family: monospace;
+	text-align: center;
+}
+.img .descs h2{
+    margin: 0;
+    text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+.img .descs p{
+    font: 'monospace';
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-family: monospace;
+	text-align: center;
+}
+#main-nav{
+    background-color: #8EB486;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    height: 69px;
+    z-index: 90;
 }
 #main-nav.sticky {
   position: fixed;
@@ -70,8 +224,9 @@ nav.sticky{
 }
 
 .logo{
-	position: relative;
+    position: relative;
     color: #fff;
+    z-index: 91;
 }
 
 nav ul{
@@ -83,9 +238,10 @@ nav ul{
 }
 
 nav ul li{
-	position: relative;
-	list-style: none;
+    position: relative;
+    list-style: none;
     list-style-type: none;
+    z-index: 91;
 }
 
 nav ul li a{

@@ -123,7 +123,7 @@ h3{
 .image img{
 	max-height: 900px;
 	max-width: 1800px;
-	width: 120%;
+	width: 100%;
 	height: auto;
 }
 
@@ -173,18 +173,15 @@ h3{
 	float:left;
 	width:50%;
 	}
-	.Isi .Judul h1{
-		font-size: 20px;
-	}
-	.Isi h2{
-		font-size: 20px;
-	}
 	.rollover table{
 		width: 200%;
 	}
 	.rollover img{
 	width: 96%;
 	height: auto;
+	}
+	.image{
+		
 	}
 }
 
